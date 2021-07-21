@@ -1,0 +1,359 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	overflow: hidden;
+	font-family: serif, sans-serif;
+	
+}
+
+li {
+	list-style: none;
+	display: inline-block;
+}
+
+a {
+	text-decoration: none;
+	transition: all 500ms ease-in-out;
+}
+
+a:hover,
+a:active {
+	text-decoration: none;
+}
+
+h1, h2, h4 {
+	font-family: Arial, sans-serif;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+p {
+	font-size: 15px;
+	line-height: 21px;
+}
+
+.btn {
+	transition: all 300ms ease-in-out;
+	font-weight: 500 !important;
+	text-transform: uppercase;
+}
+
+.btn:hover {
+	background-color: #ededed !important;
+	color: #3c3c3c !important;
+	border: 1px solid #fff !important;
+}
+
+/*NAVIGATION*/
+
+.navbar {
+	background-color: #222222 !important;
+	text-transform: uppercase;
+	font-family: Arial, sans-serif;
+	font-weight: 700;
+}
+
+.navbar a {
+	color: #fff !important;
+	opacity: 0.7;
+}
+
+.navbar a:hover {
+	opacity: 1;
+	background-color: #111111 !important;
+}
+
+.navbar-brand {
+	font-size: 30px;
+}
+
+#navbar-brand {
+	text-transform: none;
+}
+
+
+/*HEADER*/
+
+.header {
+	height: 700px;
+	width: 100%;
+	padding: 30px 0 30px;
+	margin-top: 50px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #fff;
+	background-image: url(../images/maldives.jpg);
+
+}
+
+.header img {
+	height: 350px;
+	width: 450px;
+	margin: 70px 0 0 40px;
+	border-radius: 5%;
+
+}
+
+.header h1 {
+	font-size: 40px;
+	font-weight: 700;
+	padding-top: 30px;
+	text-align: center;
+}
+
+.header p {
+	font-weight: 14px;
+	border-bottom-left-radius: 20px;
+	border-right-style: groove;
+	border-left-style: groove;
+	border-top-right-radius: 20px;
+	border-color: #0ae878;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: justify;
+	letter-spacing: 1.5px;
+
+}
+
+.header h1,
+.header p,
+.header button {
+	margin-top: 20px;
+}
+
+.header .btn {
+	border-radius: 0;
+	margin: 40px 20px;
+
+}
+
+@media(max-width: 768px) {
+	.header {
+		padding: 30px;
+		height: 950px;
+	}
+
+	.header img {
+		width: 90%;
+		height: 300px;
+		margin: 20px 0 0 20px;
+
+	}
+
+	.header .btn {
+		font-size: 10px;
+		margin-left: 20px;
+	}
+
+	.header p {
+		font-size: 10px;
+	}
+}
+
+.header .myclock {
+	font-family: serif, sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	color: #fff;
+	width: 340px;
+	padding: 10px;
+	text-align: center;
+}
+
+
+/*ABOUT*/
+
+.about {
+	padding: 80px 0 80px;
+	text-align: center;
+	height: 700px;
+}
+
+.about h2,
+.about h4 {
+	color: #4c4c4c;
+	margin: 20px 0 20px;
+}
+
+.about p {
+	color: #737373;
+	font-size: 14px;
+	padding-bottom: 40px;
+}
+
+.about i {
+	height: 80px;
+	width: 80px;
+	font-size: 30px;
+	padding: 25px 20px;
+	border-radius: 50%;
+	background-color: #6699cc;
+	color: #fff;
+}
+
+
+@media(max-width: 768px) {
+	.about {
+		padding: 30px;
+		height: 1300px;
+	}
+}
+
+/*CONTACT US*/
+
+.contactus {
+	padding: 50px 0 80px;
+	text-align: center;
+	background-color: #3399ff;
+}
+
+.contactus h2,
+.contactus p {
+	color: #fff;
+}
+
+.contactus p{
+	padding-bottom: 40px;
+}
+
+.contactus .packages {
+	padding: 10px;
+	border: 1px solid #ccc;
+	background-color: #fff;
+	border-radius: 5px;
+	margin-top: 10px;
+}
+
+.packages li {
+	display: block;
+	padding: 5px;
+}
+
+.packages h4,
+.packages h1 {
+	color: #4c4c4c;
+}
+
+.packages p,
+.packages li {
+	color: #737373;
+}
+
+.packages button {
+	margin-top: 10px;
+}
+
+.packages h1 img {
+	height: 80px;
+	width: 80px;
+}
+
+.packages h1 img:hover {
+	color: #078965;
+	border: 2px solid #fff;	
+	cursor: pointer;
+
+}
+
+@media(max-width: 768px) {
+	.packages {
+		width: 80%;
+		margin-left: 38px;
+	}
+}
+
+
+/*SIGN UP*/
+
+.signup {
+	padding: 50px 0 80px;
+	text-align: center;
+}
+
+.signup p {
+	padding-bottom: 40px;
+	color: #737373;
+}
+
+.signup h2 {
+	color: #4c4c4c;
+	margin: 20px 0 20px;
+}
+
+.signup .input-group {
+	margin-bottom: 25px;
+}
+
+.signup .form-control {
+	border-radius: 0 !important;
+}
+
+.signup span {
+	border-radius: 0 !important;
+}
+
+
+.signup img {
+	margin-top: 60%;
+	width: 250px;
+	height: 200px;
+}
+
+
+.signup .btn {
+	border-radius: 0;
+	width: 100%;
+	font-size: 15px;
+	background-color: #f08080;
+	color: #fff;
+}
+
+.signup .btn:hover {
+	background-color: #a85959 !important;
+	color: #fff !important;
+}
+
+textarea {
+	font-family: arial, sans-serif;
+}
+
+/*FOOTER*/
+
+.footer {
+	padding: 30px;
+	color: #cccccc;
+	background-color: #222222;
+}
+
+.footer .social {
+	font-size: 20px;
+	height: 30px;
+	width: 30px;
+	text-align: center;
+	padding: 5px;
+	border: 1px solid #cccccc;
+	margin-bottom: 10px;
+	margin-right: 5px;
+}
+
+.footer input {
+	height: 40px;
+	width: 160px;
+	padding: 5px;
+	border: none;
+	background-color: #cccccc;
+	color: #000;
+}
+
+.footer .btn {
+	padding: 10px 5px 10px;
+	margin: -3px 0 0 5px;
+}
+
+.copy {
+	text-align: center;
+}
